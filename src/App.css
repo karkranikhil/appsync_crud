@@ -31,3 +31,24 @@
     transform: rotate(360deg);
   }
 }
+.width50{
+  width: 50%;
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.padding20{
+  padding: 20px;
+}
+.textAlignLeft{
+  text-align: left;
+}
+.flexGrow1{
+  flex-grow: 1;
+}
+.menuButton{
+  margin-left: -12;
+  margin-right: 20;
+}

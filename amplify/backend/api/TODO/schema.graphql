@@ -1,0 +1,15 @@
+type TODO @model
+  @auth(
+    rules: [
+      { allow: owner }
+      { allow: groups, groups: ["Team"] }
+    ]
+  ){
+  id: ID!
+  firstName: String!
+  lastName:String!
+  employer:String!
+  age: Float!
+  task: String!
+  status: String!
+}

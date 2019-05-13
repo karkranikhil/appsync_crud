@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "appsynccrud-dev-20190512195651-authRole",
+            "UnauthRoleArn": "arn:aws:iam::486129879193:role/appsynccrud-dev-20190512195651-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::486129879193:role/appsynccrud-dev-20190512195651-authRole",
+            "Region": "ap-southeast-2",
+            "DeploymentBucketName": "appsynccrud-dev-20190512195651-deployment",
+            "UnauthRoleName": "appsynccrud-dev-20190512195651-unauthRole",
+            "StackName": "appsynccrud-dev-20190512195651",
+            "StackId": "arn:aws:cloudformation:ap-southeast-2:486129879193:stack/appsynccrud-dev-20190512195651/44462a40-749c-11e9-b1aa-0ae38a0236fc"
+        },
+        "categories": {
+            "auth": {
+                "cognitob121ad07": {}
+            }
+        }
+    }
+}
